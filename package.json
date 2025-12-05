@@ -1,0 +1,27 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "description": "Este repositório contém os materiais do curso **Three.js Journey**, onde você aprende desde os conceitos básicos até técnicas avançadas de Three.js, integração com React Three Fiber e criação de cenas 3D complexas.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliMassaqui/ThreeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eliMassaqui/ThreeJs/issues"
+  },
+  "homepage": "https://github.com/eliMassaqui/ThreeJs#readme",
+  "dependencies": {
+    "three": "^0.181.2",
+    "vite": "^7.2.6"
+  }
+}
