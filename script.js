@@ -13,7 +13,7 @@ console.log("Cena criada:", scene);
 
 // Criar uma geometria simples - cubo
 const geometry = new THREE.BoxGeometry(1, 1, 1);
-const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 console.log("Cubo adicionado à cena:", cube);
@@ -27,6 +27,8 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
 camera.position.z = 3;
 scene.add(camera);
 console.log("Câmera configurada:", camera);
+// Posicionar câmera
+camera.position.z = 10;
 
 // Renderizador
 const renderer = new THREE.WebGLRenderer({
