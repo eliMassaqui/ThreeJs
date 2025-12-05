@@ -60,3 +60,13 @@ npm init -y
 npm install vite three
 
 npm run dev
+```
+
+Antes altere o package.joson pra os comandos de inicalizar e rodar o projecto no terminal:
+```
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+```
